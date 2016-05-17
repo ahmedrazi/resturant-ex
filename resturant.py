@@ -26,3 +26,16 @@ print(your_rest.cuisine_type)
 ## calling methods on new instance
 your_rest.describe_resturant()
 your_rest.open_resturant()
+
+print()
+## creating other instances
+our_rest=Resturant("Continental","Finger Food")
+
+
+### calling attributes on new instance
+print(our_rest.resturant_type)
+print(our_rest.cuisine_type)
+
+## calling methods on new instance
+our_rest.describe_resturant()
+our_rest.open_resturant()
